@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bomber</title>
+    <link rel="stylesheet" href="css/key.css">
+    <script src="js/key.js"></script>
+</head>
+
+<body>
+
+    <img src="img/title1.gif">
+    <form>
+        請輸入(1~99)其中一個數字 來開始終極密碼 :
+        <br/>
+        <input type="number" id="code" min="1" max="99" autofocus>
+        <input type="button" value="Guess" onclick="doGuess()">
+        <input type="button" value="Restart" onclick="Restart()">
+
+        <div id="bombs">
+            <img name="img1" src="img/bomber.png">
+            <img name="img2" src="img/bomber.png">
+            <img name="img3" src="img/bomber.png">
+            <img name="img4" src="img/bomber.png">
+            <img name="img5" src="img/bomber.png">
+            <img name="img6" src="img/bomber.png">
+        </div>
+    </form>
+</body>
+
+</html>

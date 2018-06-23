@@ -1,0 +1,17 @@
+#body form {
+    border: 10px solid white;
+    text-align: center
+}
+
+#form img{
+	align-items: center;
+}
+
+input {
+    margin: 10px;
+}
+
+#bombs img {
+    width: 25px;
+    margin: 5px 3px;
+}

@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.button {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #e7e7e7;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #e7e7e7;
+    color: white;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;    
+  right: 0;
+}
+
+.clmonth{
+      border-collapse:collapse;           
+      width:780px;
+    }
+    .clmonth caption{                                        
+      text-align:left;
+      font:bold 130% Georgia,"Times New Roman";
+      padding-bottom:6px;
+    }
+    .clmonth th{                                              
+      border:1px solid #999999;
+      border-bottom:none;
+      padding:2px 8px 2px 8px;
+      background-color:#D3D2A0;
+      color:#2F2F2F;
+      font:80% Verdana,Geneva,Arial,Helvetica,sans-serif;
+      width:110px;
+    }
+    .clmonth td{                                               
+      height:100px; 
+      border:1px solid #AFAFAF;
+      font:80% Verdana,Geneva,Arial,Helvetica,sans-serif;
+      padding:2px 4px 2px 4px;
+      vertical-align:top;
+      color:black;
+    }
+    .clmonth ul{                                               
+      list-style-type:none;
+      margin:0;
+      padding-left:12px;
+      padding-right:6px;                
+    }
+    .clmonth li{
+      margin-bottom:8px;               
+    }
+    .clmonth td.previous,.clmonth td.next{                    
+      background-color:#F5F4E6;                         
+      color:#A6A6A6;                                    
+    } 
+    .clmonth td.active{                                       
+      background-color:#B1CBE1;                         
+      color:black;                                    
+      border:2px solid #4682B4;                         
+    }
+    .clmonth td.weekend{                                       
+      background-color:azure;                         
+      color:#8B0000;                                    
+      border:2px solid #4682B4; 
+
